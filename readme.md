@@ -96,7 +96,11 @@
 
 **22. zip:** Zip files
 
+    example: zip {source_folder_name} {destination_folder_name} 
+
 **23. unzip:** Unzip files
+
+    example: unzip {source_folder_name.zip} -d {destination_folder_name}
 
 **24. ssh:** Secure shell (remote login)
 
