@@ -21,7 +21,6 @@ Basic Linux Commands
     c. ls -la: More details about each of the directories including hidden ones
 
 2. pwd: Print working directories
-
 3. cd: To navigate through directories
    
     a. cd .. : to go back one directory
