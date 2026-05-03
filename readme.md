@@ -7,111 +7,123 @@
     Linux Distribution use the Linux Kernel together with the GNU Operating System.
 
 ---------------------------
+
 Basic Linux Commands
+
 --------------------------
 
 1. ls:  To list directories
    
     a. ls -a : To list all directories including hidden ones
+   
     b. ls -l : More details about each of the directories
+   
     c. ls -la: More details about each of the directories including hidden ones
 
-3. pwd: Print working directories
+2. pwd: Print working directories
 
-4. cd: To navigate through directories
+3. cd: To navigate through directories
+   
     a. cd .. : to go back one directory
+   
     b. cd - : to go back to the last directory you were on
 
-5. mkdir: To make directories in linux
+6. mkdir: To make directories in linux
 
-6. mv: Move or rename file in linux
+7. mv: Move or rename file in linux
+   
     example: mv {source_file_name} {target_destination}
+   
     example: mv {current_file_name} {new_file_name}
 
-7. cp:  Coping files in linux
+9. cp:  Coping files in linux
+    
     example: cp {source_file_name} {destination_with_file_name} 
 
-8. rm: Delete files or directories
+11. rm: Delete files or directories
+    
     a. rm {file_name} ; to delete a single file
+    
     b. rm -rf {directory_name} : remove recursively by force to delete a folder
 
-9. touch: Create blank/empty files
+13. touch: Create blank/empty files
 
-10. ln: Create symbolic links (shortcuts) to other files
+14. ln: Create symbolic links (shortcuts) to other files
+    
     example: ln -s {source_file_name} {destination_with_file_name} 
 
-11. cat: Display file contents on the terminal
-12. clear: Clear the terminal display
-13. echo: Print any text that follows the command
-14. man: Access manual pages for all linux commands
+16. cat: Display file contents on the terminal
+17. clear: Clear the terminal display
+18. echo: Print any text that follows the command
+19. man: Access manual pages for all linux commands
 
-15. uname: To get the basic information about the OS
+20. uname: To get the basic information about the OS
     a. uname -mrs : to get more information about the OS (OS name, kernel version, processor type)
     b. uname -a : to get extra more information about the OS 
 
-16. whoami: Get the active Username
+21. whoami: Get the active Username
 
-17. tar: To extract and compress files in linux
+22. tar: To extract and compress files in linux
     example to create a tar folder: tar -cvf {destination_folder_name} {source folder name}
     example to extarct a tar folder: tax -xvf {folder_name}
 
-18. grep: Search for a string within an output
+23. grep: Search for a string within an output
     example: cat {file_name} | grep {output_string}
     example: cat {file_name} | grep {output_string} -n
     example: ps | grep {output_string}
 
-19. head: Return the specific number of lines from the top
+24. head: Return the specific number of lines from the top
     example: head {file_name}
     example: head -n 5 {filename} <- Returns first 5 lines
 
-20. tail: return the specific number of lines from the bottom
+25. tail: return the specific number of lines from the bottom
 
-21. printenv : to print all the environment variables
-22. export: Export environment vaiables in linux (only for that particular runtime)
+26. printenv : to print all the environment variables
+27. export: Export environment vaiables in linux (only for that particular runtime)
     exmaple: export name={name_which_you_want_to_give}
 
-23. zip: Zip files in linux
-24. unzip: Unzip files in linux
-25. ssh: Secure shell command in linux
+28. zip: Zip files in linux
+29. unzip: Unzip files in linux
+30. ssh: Secure shell command in linux
 
-26. service: To start and stop services (services are collection of task)
+31. service: To start and stop services (services are collection of task)
     a. service --status-all : to get all the services
 
-27. ufw: Firewall command
+32. ufw: Firewall command
 
-28. ps: Display active processes (processes are task)
+33. ps: Display active processes (processes are task)
     a. ps aux : all the running tasks
 
-29. kill and killall: Kill active processes by process ID or name
+34. kill and killall: Kill active processes by process ID or name
 
-30. df: Display disk filesystem information
+35. df: Display disk filesystem information
     a. df -h
 
-31. chmod: Command to chnage file permission (r = read, w = write, x = executable)
+36. chmod: Command to chnage file permission (r = read, w = write, x = executable)
     example: chmod +x {application_name} <- making application executable
     example: chmod 777 {application_name} <- giving application all possible permissions (not recommended)
 
-32. ifconfig: Display network interfaces and IP addresses
-33. curl: to send http request and fetch data from it
-34. wget: Direct download files from the internet
+37. ifconfig: Display network interfaces and IP addresses
+38. curl: to send http request and fetch data from it
+39. wget: Direct download files from the internet
 
-35. sudo: Command to escalate privilegs in Linux
-36. apt, pacman, yum, rpm - Package manager depending on the distro
+40. sudo: Command to escalate privilegs in Linux
+41. apt, pacman, yum, rpm - Package manager depending on the distro
     snap - Ubuntu package manager
     example: sudo apt install {application_name}
     example: sudo apt remove {application_name}
     example: sudo apt update
     example: sudo apt upgrade
 
-37. alias: Create custom shortcuts for your regularly used commands (only for that particular runtime)
+42. alias: Create custom shortcuts for your regularly used commands (only for that particular runtime)
     a. alias {destination_value} = "{source_value}"
 
-38. whereis: Locate the binary, source, and manual pages for a command
-39. whatis: Find what a command is used for
+43. whereis: Locate the binary, source, and manual pages for a command
+44. whatis: Find what a command is used for
 
-40. top: View active processes live with their system usage
+45. top: View active processes live with their system usage
     a. btop
 
-41. --help
-42. code . : to open VS Code from the terminal
-43. clt+shift+v = to paste in terminal
+46. --help
+47. code . : to open VS Code from the terminal
+48. clt+shift+v = to paste in terminal
