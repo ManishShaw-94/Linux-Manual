@@ -1,10 +1,8 @@
 # LINUX MANUAL
 
-> A kerner is a program that allocates and controls hardware resources in a system. 
-    A kernel act as an interface between your raw hardware (RAM, processor, storage) and the Operating System.
+> A **kernel** is a program that allocates and controls hardware resources in a system. A kernel acts as an interface between your raw hardware (RAM, processor, storage) and the operating system.
 
-> A linux is a kernel upon which you can build an Operating System (also called Linux Distros, say for example: Ubuntu, Alpine, Fedora).
-    Linux Distribution use the Linux Kernel together with the GNU Operating System.
+> **Linux** is a kernel upon which you can build an operating system (also called Linux distributions, for example: Ubuntu, Alpine, Fedora). Linux distributions use the Linux kernel together with the GNU operating system.
 
 ---------------------------
 
@@ -12,41 +10,41 @@
 
 --------------------------
 
-**1. ls:**  To list directories
+**1. ls:**  List directories
    
-    a. ls -a : To list all directories including hidden ones
+    a. ls -a : List all directories including hidden ones
    
-    b. ls -l : More details about each of the directories
+    b. ls -l : Show detailed information
    
-    c. ls -la: More details about each of the directories including hidden ones
+    c. ls -la: Detailed information including hidden files
 
-**2. pwd:** Print working directories
+**2. pwd:** Print working directory
 
-**3. cd:** To navigate through directories
+**3. cd:** Navigate through directories
    
-    a. cd .. : to go back one directory
+    a. cd .. : Go back one directory
    
-    b. cd - : to go back to the last directory you were on
+    b. cd - : Go back to the last directory
 
-**4. mkdir:** To make directories in linux
+**4. mkdir:** Create directories in Linux
 
-**5. mv:** Move or rename file in linux
+**5. mv:** Move or rename files in Linux
    
     example: mv {source_file_name} {target_destination}
    
     example: mv {current_file_name} {new_file_name}
 
-**6. cp:**  Coping files in linux
+**6. cp:**  Copy files in Linux
     
     example: cp {source_file_name} {destination_with_file_name} 
 
 **7. rm:** Delete files or directories
     
-    a. rm {file_name} ; to delete a single file
+    a. rm {file_name} : Delete a single file
     
-    b. rm -rf {directory_name} : remove recursively by force to delete a folder
+    b. rm -rf {directory_name} : Delete a folder recursively (use carefully)
 
-**8. touch:** Create blank/empty files
+**8. touch:** Create empty files
 
 **9. ln:** Create symbolic links (shortcuts) to other files
     
@@ -58,23 +56,23 @@
 
 **12. echo:** Print any text that follows the command
 
-**13. man:** Access manual pages for all linux commands
+**13. man:** Access manual pages for linux commands
 
-**14. uname:** To get the basic information about the OS
+**14. uname:** Get system information
 
-    a. uname -mrs : to get more information about the OS (OS name, kernel version, processor type)
+    a. uname -mrs : Information about the OS (OS name, kernel version, processor)
     
-    b. uname -a : to get extra more information about the OS 
+    b. uname -a : Detailed system information 
 
-**15. whoami:** Get the active Username
+**15. whoami:** Show current user
 
-**16. tar:** To extract and compress files in linux
+**16. tar:** Compress and extract files
     
     example to create a tar folder: tar -cvf {destination_folder_name} {source folder name}
     
     example to extarct a tar folder: tax -xvf {folder_name}
 
-**17. grep:** Search for a string within an output
+**17. grep:** Search for text within an output
     
     example: cat {file_name} | grep {output_string}
     
@@ -82,55 +80,55 @@
     
     example: ps | grep {output_string}
 
-**18. head:** Return the specific number of lines from the top
+**18. head:** Show first lines of a file
     
     example: head {file_name}
     
     example: head -n 5 {filename} <- Returns first 5 lines
 
-**19. tail:** return the specific number of lines from the bottom
+**19. tail:** Show last lines of a file
 
-**20. printenv:** to print all the environment variables
+**20. printenv:** Show environment variables
 
-**21. export:** Export environment vaiables in linux (only for that particular runtime)
+**21. export:** Set environment variables (temporary - only for that particular runtime)
     
     exmaple: export name={name_which_you_want_to_give}
 
-**22. zip:** Zip files in linux
+**22. zip:** Zip files
 
-**23. unzip:** Unzip files in linux
+**23. unzip:** Unzip files
 
-**24. ssh:** Secure shell command in linux
+**24. ssh:** Secure shell (remote login)
 
-**25. service:** To start and stop services (services are collection of task)
+**25. service:** Manage services (services are collection of task)
     
     a. service --status-all : to get all the services
 
-**26. ufw:** Firewall command
+**26. ufw:** Firewall management
 
-**27. ps:** Display active processes (processes are task)
+**27. ps:** Show running processes (processes are task)
     
     a. ps aux : all the running tasks
 
-**28. kill** and **killall:** Kill active processes by process ID or name
+**28. kill** and **killall:** Stop active processes (by process ID or name)
 
-**29. df:** Display disk filesystem information
+**29. df:** Show disk filesystem information
     
     a. df -h
 
-**30. chmod:** Command to change file permission (r = read, w = write, x = executable)
+**30. chmod:** Change file permissions (r = read, w = write, x = executable)
     
     example: chmod +x {application_name} <- making application executable
     
     example: chmod 777 {application_name} <- giving application all possible permissions (not recommended)
 
-**31. ifconfig:** Display network interfaces and IP addresses
+**31. ifconfig:** Show network interfaces and IP addresses
 
-**32. curl:** to send http request and fetch data from it
+**32. curl:** Send HTTP requests and fetch data from it
 
-**33. wget:** Direct download files from the internet
+**33. wget:** Download files from internet
 
-**34. sudo:** Command to esclate privilegs in Linux
+**34. sudo:** Execute commands with elevated privileges
 
 **35. apt, pacman, yum, rpm** - Package manager depending on the distro
     (**snap** - Ubuntu package manager)
@@ -143,19 +141,19 @@
     
     example: sudo apt upgrade
 
-**36. alias:** Create custom shortcuts for your regularly used commands (only for that particular runtime)
+**36. alias:** Create command shortcuts (temporary - only for that particular runtime)
     
     a. alias {destination_value} = "{source_value}"
 
-**37. whereis:** Locate the binary, source, and manual pages for a command
+**37. whereis:** Locate command files (binary, source, and manual pages for a command)
 
-**38. whatis:** Find what a command is used for
+**38. whatis:** Describe a command
 
-**39. top:** View active processes live with their system usage
+**39. top:** Monitor system processes
     a. btop
 
-**40. --help**
+**40. --help:** Show command help
 
-**41. code .** to open VS Code from the terminal
+**41. code .** Open VS Code in current directory
 
-**42. clt+shift+v**  to paste in terminal
+**42. clt+shift+v**  Paste in terminal
