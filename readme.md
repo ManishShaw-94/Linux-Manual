@@ -8,19 +8,20 @@
 
 ---------------------------
 
-Basic Linux Commands
+**Basic Linux Commands**
 
 --------------------------
 
 1. ls:  To list directories
    
     a. ls -a : To list all directories including hidden ones
+   
     b. ls -l : More details about each of the directories
    
     c. ls -la: More details about each of the directories including hidden ones
 
-2. pwd: Print working directories
-3. cd: To navigate through directories
+3. pwd: Print working directories
+4. cd: To navigate through directories
    
     a. cd .. : to go back one directory
    
@@ -57,71 +58,91 @@ Basic Linux Commands
 
 20. uname: To get the basic information about the OS
     a. uname -mrs : to get more information about the OS (OS name, kernel version, processor type)
+    
     b. uname -a : to get extra more information about the OS 
 
-21. whoami: Get the active Username
+22. whoami: Get the active Username
 
-22. tar: To extract and compress files in linux
+23. tar: To extract and compress files in linux
+    
     example to create a tar folder: tar -cvf {destination_folder_name} {source folder name}
+    
     example to extarct a tar folder: tax -xvf {folder_name}
 
-23. grep: Search for a string within an output
+25. grep: Search for a string within an output
+    
     example: cat {file_name} | grep {output_string}
+    
     example: cat {file_name} | grep {output_string} -n
+    
     example: ps | grep {output_string}
 
-24. head: Return the specific number of lines from the top
+27. head: Return the specific number of lines from the top
+    
     example: head {file_name}
+    
     example: head -n 5 {filename} <- Returns first 5 lines
 
-25. tail: return the specific number of lines from the bottom
+29. tail: return the specific number of lines from the bottom
 
-26. printenv : to print all the environment variables
-27. export: Export environment vaiables in linux (only for that particular runtime)
+30. printenv : to print all the environment variables
+31. export: Export environment vaiables in linux (only for that particular runtime)
+    
     exmaple: export name={name_which_you_want_to_give}
 
-28. zip: Zip files in linux
-29. unzip: Unzip files in linux
-30. ssh: Secure shell command in linux
+33. zip: Zip files in linux
+34. unzip: Unzip files in linux
+35. ssh: Secure shell command in linux
 
-31. service: To start and stop services (services are collection of task)
+36. service: To start and stop services (services are collection of task)
+    
     a. service --status-all : to get all the services
 
-32. ufw: Firewall command
+38. ufw: Firewall command
 
-33. ps: Display active processes (processes are task)
+39. ps: Display active processes (processes are task)
+    
     a. ps aux : all the running tasks
 
-34. kill and killall: Kill active processes by process ID or name
+41. kill and killall: Kill active processes by process ID or name
 
-35. df: Display disk filesystem information
+42. df: Display disk filesystem information
+    
     a. df -h
 
-36. chmod: Command to chnage file permission (r = read, w = write, x = executable)
+44. chmod: Command to chnage file permission (r = read, w = write, x = executable)
+    
     example: chmod +x {application_name} <- making application executable
+    
     example: chmod 777 {application_name} <- giving application all possible permissions (not recommended)
 
-37. ifconfig: Display network interfaces and IP addresses
-38. curl: to send http request and fetch data from it
-39. wget: Direct download files from the internet
+46. ifconfig: Display network interfaces and IP addresses
+47. curl: to send http request and fetch data from it
+48. wget: Direct download files from the internet
 
-40. sudo: Command to escalate privilegs in Linux
-41. apt, pacman, yum, rpm - Package manager depending on the distro
+49. sudo: Command to escalate privilegs in Linux
+50. apt, pacman, yum, rpm - Package manager depending on the distro
+    
     snap - Ubuntu package manager
+    
     example: sudo apt install {application_name}
+    
     example: sudo apt remove {application_name}
+    
     example: sudo apt update
+    
     example: sudo apt upgrade
 
-42. alias: Create custom shortcuts for your regularly used commands (only for that particular runtime)
+52. alias: Create custom shortcuts for your regularly used commands (only for that particular runtime)
+    
     a. alias {destination_value} = "{source_value}"
 
-43. whereis: Locate the binary, source, and manual pages for a command
-44. whatis: Find what a command is used for
+54. whereis: Locate the binary, source, and manual pages for a command
+55. whatis: Find what a command is used for
 
-45. top: View active processes live with their system usage
+56. top: View active processes live with their system usage
     a. btop
 
-46. --help
-47. code . : to open VS Code from the terminal
-48. clt+shift+v = to paste in terminal
+57. --help
+58. code . : to open VS Code from the terminal
+59. clt+shift+v = to paste in terminal
