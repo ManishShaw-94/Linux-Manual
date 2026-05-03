@@ -118,7 +118,7 @@
     
     a. df -h
 
-**30. chmod:** Command to chnage file permission (r = read, w = write, x = executable)
+**30. chmod:** Command to change file permission (r = read, w = write, x = executable)
     
     example: chmod +x {application_name} <- making application executable
     
@@ -130,7 +130,7 @@
 
 **33. wget:** Direct download files from the internet
 
-**34. sudo:** Command to escalate privilegs in Linux
+**34. sudo:** Command to esclate privilegs in Linux
 
 **35. apt, pacman, yum, rpm** - Package manager depending on the distro
     (**snap** - Ubuntu package manager)
