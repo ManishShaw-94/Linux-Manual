@@ -6,9 +6,9 @@
 > A linux is a kernel upon which you can build an Operating System (also called Linux Distros, say for example: Ubuntu, Alpine, Fedora).
     Linux Distribution use the Linux Kernel together with the GNU Operating System.
 
-==========================
+---------------------------
 Basic Linux Commands
-==========================
+--------------------------
 
 1. ls:  To list directories
     a. ls -a : To list all directories including hidden ones
