@@ -133,7 +133,7 @@
 **34. sudo:** Command to escalate privilegs in Linux
 
 **35. apt, pacman, yum, rpm** - Package manager depending on the distro
-    **snap** - Ubuntu package manager
+    (**snap** - Ubuntu package manager)
     
     example: sudo apt install {application_name}
     
