@@ -1,4 +1,4 @@
-#LINUX MANUAL
+# LINUX MANUAL
 
 > A kerner is a program that allocates and controls hardware resources in a system. 
     A kernel act as an interface between your raw hardware (RAM, processor, storage) and the Operating System.
@@ -15,7 +15,6 @@ Basic Linux Commands
 1. ls:  To list directories
    
     a. ls -a : To list all directories including hidden ones
-   
     b. ls -l : More details about each of the directories
    
     c. ls -la: More details about each of the directories including hidden ones
