@@ -61,6 +61,7 @@
 **13. man:** Access manual pages for all linux commands
 
 **14. uname:** To get the basic information about the OS
+
     a. uname -mrs : to get more information about the OS (OS name, kernel version, processor type)
     
     b. uname -a : to get extra more information about the OS 
@@ -132,8 +133,7 @@
 **34. sudo:** Command to escalate privilegs in Linux
 
 **35. apt, pacman, yum, rpm** - Package manager depending on the distro
-    
-    _snap_ - Ubuntu package manager
+    **snap** - Ubuntu package manager
     
     example: sudo apt install {application_name}
     
