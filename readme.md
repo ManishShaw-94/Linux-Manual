@@ -21,6 +21,7 @@
     c. ls -la: More details about each of the directories including hidden ones
 
 **2. pwd:** Print working directories
+
 **3. cd:** To navigate through directories
    
     a. cd .. : to go back one directory
@@ -52,8 +53,11 @@
     example: ln -s {source_file_name} {destination_with_file_name} 
 
 **10. cat:** Display file contents on the terminal
+
 **11. clear:** Clear the terminal display
+
 **12. echo:** Print any text that follows the command
+
 **13. man:** Access manual pages for all linux commands
 
 **14. uname:** To get the basic information about the OS
@@ -86,12 +90,15 @@
 **19. tail:** return the specific number of lines from the bottom
 
 **20. printenv:** to print all the environment variables
+
 **21. export:** Export environment vaiables in linux (only for that particular runtime)
     
     exmaple: export name={name_which_you_want_to_give}
 
 **22. zip:** Zip files in linux
+
 **23. unzip:** Unzip files in linux
+
 **24. ssh:** Secure shell command in linux
 
 **25. service:** To start and stop services (services are collection of task)
@@ -110,20 +117,23 @@
     
     a. df -h
 
-**20. chmod:** Command to chnage file permission (r = read, w = write, x = executable)
+**30. chmod:** Command to chnage file permission (r = read, w = write, x = executable)
     
     example: chmod +x {application_name} <- making application executable
     
     example: chmod 777 {application_name} <- giving application all possible permissions (not recommended)
 
 **31. ifconfig:** Display network interfaces and IP addresses
+
 **32. curl:** to send http request and fetch data from it
+
 **33. wget:** Direct download files from the internet
 
 **34. sudo:** Command to escalate privilegs in Linux
+
 **35. apt, pacman, yum, rpm** - Package manager depending on the distro
     
-    **snap** - Ubuntu package manager
+    _snap_ - Ubuntu package manager
     
     example: sudo apt install {application_name}
     
@@ -138,11 +148,14 @@
     a. alias {destination_value} = "{source_value}"
 
 **37. whereis:** Locate the binary, source, and manual pages for a command
+
 **38. whatis:** Find what a command is used for
 
 **39. top:** View active processes live with their system usage
     a. btop
 
-40. --help
-41. code . : to open VS Code from the terminal
-42. clt+shift+v = to paste in terminal
+**40. --help**
+
+**41. code .** to open VS Code from the terminal
+
+**42. clt+shift+v**  to paste in terminal
