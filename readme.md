@@ -154,12 +154,17 @@
 **38. whatis:** Describe a command
 
 **39. top:** Monitor system processes
+
     a. btop
 
-**40. vim:** Terminal text editor
+**40. vim:** Terminal based text editor to create or edit files
 
-**41. --help:** Show command help
+   **a. :wq :** To save and exit from text editor
 
-**42. code .** Open VS Code in current directory
+**41. bash:** To open a new shell/terminal
 
-**43. clt+shift+v**  Paste in terminal
+**42. --help:** Show command help
+
+**43. code .** Open VS Code in current directory
+
+**44. clt+shift+v**  Paste in terminal
