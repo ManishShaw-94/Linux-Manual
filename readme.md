@@ -156,8 +156,10 @@
 **39. top:** Monitor system processes
     a. btop
 
-**40. --help:** Show command help
+**40. vim:** Terminal text editor
 
-**41. code .** Open VS Code in current directory
+**41. --help:** Show command help
 
-**42. clt+shift+v**  Paste in terminal
+**42. code .** Open VS Code in current directory
+
+**43. clt+shift+v**  Paste in terminal
