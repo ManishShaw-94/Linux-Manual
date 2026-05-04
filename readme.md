@@ -159,7 +159,7 @@
 
 **40. vim:** Terminal based text editor to create or edit files
 
-   a. :wq : To save and exit from text editor
+      a. :wq : To save and exit from text editor
 
 **41. bash:** To open a new shell/terminal
 
